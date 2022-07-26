@@ -7,7 +7,6 @@
 
 function doubleChar(str) {
     const y = str.split("").map(x=> x + x).join("");
-    return y;
-  
+    return y; 
   }
 // .split с пустым значением,  разделяет строку на отдельные буквы. при помощи map удвоим буквы и при помощи join объеденим снова в одну строку.
