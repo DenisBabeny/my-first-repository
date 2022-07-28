@@ -16,4 +16,4 @@ function litres(time) {
  const y = time * 0.5;
   return Math.floor(y) ;
 }
-// округление до меньшего целого
+// округление до меньшего целого.
